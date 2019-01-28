@@ -173,6 +173,11 @@
 					"type": "string",
 					"default": "✔",
 					"description": "Done Task"
+				},
+				"amWiki.pasterImg.bIsUseDate": {
+					"type": "boolean",
+					"default": false,
+					"description": "Use Date"
 				}
 			}
 		}
