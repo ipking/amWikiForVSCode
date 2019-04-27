@@ -1,8 +1,8 @@
 {
-	"name": "amWiki",
+	"name": "amwiki",
 	"displayName": "amWikiForVSCode",
 	"description": "这是一款让VSCode化身为wiki编辑器的扩展",
-	"version": "1.2.0",
+	"version": "1.2.5",
 	"publisher": "dever-yaoxuanzhi",
 	"license": "MIT",
 	"author": {
@@ -174,10 +174,18 @@
 					"default": "✔",
 					"description": "Done Task"
 				},
-				"amWiki.pasterImg.bIsUseDate": {
+				"amWiki.pasterImg.bIsSpecFolder": {
 					"type": "boolean",
 					"default": false,
-					"description": "Use Date"
+					"description": "Use Spec Folder"
+				},
+				"amWiki.pasterImg.specFolder": {
+					"type": "object",
+					"default": {
+						"rootDir" : "",
+						"resDir" : "assets"
+					},
+					"description": "Spec Folder"
 				}
 			}
 		}
