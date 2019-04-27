@@ -33,6 +33,14 @@ Apm:
 
 ![粘贴截图](https://github.com/YaoXuanZhi/amWikiForVSCode/blob/master/res/Paste_a_screenshot.gif)
 
+>支持自定义截图目录，比如Hexo博客的图片文件夹：
+
+![兼容Hexo博客的贴图模块](https://github.com/YaoXuanZhi/amWikiForVSCode/blob/master/res/support_customres_folder_for_hexo.png)
+
+>改变amWiki文库的资源引用路径
+
+![修改amWiki资源引用方式](https://github.com/YaoXuanZhi/amWikiForVSCode/blob/master/res/support_customres_folder_for_amwiki.png)
+
 - 插入页内目录
 
 >使用文档编辑器的右键菜单中的`插入页内目录`命令，会把当前markdown文档中的h2、h3级作为页内目录抽取成文本，并将其粘贴到当前光标处，如下图所示：
