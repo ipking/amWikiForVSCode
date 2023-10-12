@@ -44,6 +44,7 @@
 	"icon": "images/logo.png",
 	"activationEvents": [
 		"onCommand:amWiki.create",
+		"onCommand:amWiki.makeNav",
 		"onCommand:amWiki.catalogue",
 		"onCommand:amWiki.makeMut",
 		"onCommand:amWiki.pasteImg",
@@ -57,6 +58,10 @@
 	"main": "./lib/main",
 	"contributes": {
 		"commands": [
+			{
+				"command": "amWiki.makeNav",
+				"title": "%amWiki.makeNav%"
+			},
 			{
 				"command": "amWiki.create",
 				"title": "%amWiki.create%"
@@ -91,23 +96,28 @@
 				},
 				{
 					"when": "resourceLangId == markdown",
-					"command": "amWiki.catalogue",
+					"command": "amWiki.makeNav",
 					"group": "amWikiMenu@2"
 				},
 				{
 					"when": "resourceLangId == markdown",
-					"command": "amWiki.makeMut",
+					"command": "amWiki.catalogue",
 					"group": "amWikiMenu@3"
 				},
 				{
 					"when": "resourceLangId == markdown",
-					"command": "amWiki.exportTogitHub",
+					"command": "amWiki.makeMut",
 					"group": "amWikiMenu@4"
 				},
 				{
 					"when": "resourceLangId == markdown",
-					"command": "amWiki.browser",
+					"command": "amWiki.exportTogitHub",
 					"group": "amWikiMenu@5"
+				},
+				{
+					"when": "resourceLangId == markdown",
+					"command": "amWiki.browser",
+					"group": "amWikiMenu@6"
 				}
 			],
 			"explorer/context": [

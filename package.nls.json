@@ -1,5 +1,6 @@
 {
 	"amWiki.create": "create a new wiki",
+	"amWiki.makeNav": "Refresh Nav",
 	"amWiki.catalogue": "Insert a catalogue",
 	"amWiki.makeMut": "Update the page to mount the data",
 	"amWiki.pasteImg": "Paste a screenshot",

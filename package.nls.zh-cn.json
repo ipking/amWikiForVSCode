@@ -1,8 +1,9 @@
 {
-	"amWiki.create": "基于当前config.json创建wiki",
-	"amWiki.catalogue": "插入页内目录",
-	"amWiki.makeMut": "更新页面挂载数据",
-	"amWiki.pasteImg": "粘帖截图到文档",
-	"amWiki.browser": "浏览当前页面",
-	"amWiki.exportTogitHub": "导出项目为github wiki"
+	"amWiki.create": "create a new wiki",
+	"amWiki.makeNav": "Refresh Nav",
+	"amWiki.catalogue": "Insert a catalogue",
+	"amWiki.makeMut": "Update the page to mount the data",
+	"amWiki.pasteImg": "Paste a screenshot",
+	"amWiki.browser": "Preview the current page",
+	"amWiki.exportTogitHub": "Export to disk as a github wiki"
 }
